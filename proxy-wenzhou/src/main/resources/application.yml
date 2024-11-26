@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: proxy-wenzhou
+
+server:
+  port: 8281
+  servlet:
+    context-path: /ds-proxy
+
+## hik
+artemis:
+  host: "122.228.190.147:446"  #
+  appKey: "26598842"           # appKey
+  appSecret: "nWtwh0oy3uueztuXN4uD"     # appSecret
+  eventType: 5201158145
+### amap
+amap:
+  url: https://restapi.amap.com
+  key: 12a987ae42b21b3165e7095822a4ca74
+
